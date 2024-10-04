@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="CalculadoraFiguras.exe" version="1.0.0.8" publicKeyToken="b82552412332f938" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="CalculadoraFiguras" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="CalculadoraFiguras.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de Control de cuentas de usuario
+          Si quiere cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el
+          nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar la virtualización de archivos y del Registro para la
+         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CalculadoraFiguras.exe" size="239584">
+      <assemblyIdentity name="CalculadoraFiguras" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>mf4p/pRWi06CZFIoftsEJl9v4Zw2ksvZ6tTgyFTwxMw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="CalculadoraFiguras.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP-JBUFVTIR\itzee" issuerKeyHash="42d4facd0b249bce4558bd426ba5a0956f583f78" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>5DQiO7ZLuaRkJ/FcuEXpOTiuPO9DWQJiOWqmHKO3WnU=</DigestValue></Reference></SignedInfo><SignatureValue>IQtJkBda5jFm9KHSTzzPszKssSqBtrMtn1nPn1Ndti+DmhN8N85N9Uci41TbK99jVQccB00cLY9I9cug/GCP7uAin8aC7mFshR1foamvT0MIcWFbOT3TxII02LjCckHHK7alF2SyhF/+E/vleA9qV0JT01voq76yZPjyfZZGJc8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>4qXFdDUq5Nc2sUOzUBjF1j7HncktJ6fwpSxmusfswYDxV+A3xYCKeU3Dt/Fk1dqKSM3wbOyCZZOcPy54XlAH04NQQ127MCOrxkdWV+EdeJgz4y+Btx9CjTjckJmTqZlF/RY2O93A11DVJCyFpSk9vGTW4sGgpm0CkjyAUQoG630=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="755ab7a31ca66a3962025943ef3cae3839e945b85cf12764a4b94bb63b2234e4" Description="" Url=""><as:assemblyIdentity name="CalculadoraFiguras.exe" version="1.0.0.8" publicKeyToken="b82552412332f938" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-JBUFVTIR\itzee</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>boLTg4Uw94s2nGW8EP2UyJufL5ZS1uQZ5ZlgNYcIdhY=</DigestValue></Reference></SignedInfo><SignatureValue>cvUIeV0hy0OdGJSAG1oP2cp62MXeKSwy9kEd+AH+4sNRARdXERXzuDBj0x1b0VFVqoHeVBXJNVRApVRcQ4Kj0L+kmNDM7BisZa3R5JKz7qCZ5jLm5fkzSbxg877hajg7jyfxKQUMmwuyyrFX+tHViBSgwPf8E+NjDz3R38YZi30=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>4qXFdDUq5Nc2sUOzUBjF1j7HncktJ6fwpSxmusfswYDxV+A3xYCKeU3Dt/Fk1dqKSM3wbOyCZZOcPy54XlAH04NQQ127MCOrxkdWV+EdeJgz4y+Btx9CjTjckJmTqZlF/RY2O93A11DVJCyFpSk9vGTW4sGgpm0CkjyAUQoG630=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQXu6ZOx8o4JRBUGE/Utym5zANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQBKAEIAVQBGAFYAVABJAFIAXABpAHQAegBlAGUwHhcNMjQxMDA0MDExODQ2WhcNMjUxMDA0MDcxODQ2WjA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQBKAEIAVQBGAFYAVABJAFIAXABpAHQAegBlAGUwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAOKlxXQ1KuTXNrFDs1AYxdY+x53JLSen8KUsZrrH7MGA8VfgN8WAinlNw7fxZNXaikjN8GzsgmWTnD8ueF5QB9ODUENduzAjq8ZHVlfhHXiYM+MvgbcfQo043JCZk6mZRf0WNjvdwNdQ1SQshaUpPbxk1uLBoKZtApI8gFEKBut9AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAFQ57k19eMqrOB9RvP57Fl5RhYP+gCR5c/aeHg15MrjXa+JUBvdjNk6eh2WTBL8XI6OpWHaytIrb6wVmk5JZaD6pnUoomCcVeUylqAgzxIDasyE+uHYIJWw6hPVoLZVt03x65Z7oCeR+zv+h4j1Ip5VGVq3PR3bgJ7d5qUL4fe/M=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
